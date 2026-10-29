@@ -710,7 +710,7 @@ public class WebGrabber
         //preparedXhtmlString = CleanXhtmlAfterTidy(preparedXhtmlString);
         #endregion
 
-        ParsedMainHtmlBlocks parsedProto = new ParsedMainHtmlBlocks()
+        var parsedProto = new ParsedMainHtmlBlocks()
         {
             Url = urlOfPage,
             RawHtml = htmlDoc.DocumentNode.ToString()
